@@ -27,6 +27,12 @@ I'd love to hear from you! Whether you're a fellow coder, a bartender, or just s
 * Email: fernando@bartender.dev
 
 ## Interactive Fun
+Click the "Shake It Up!" button to generate a random cocktail recipe!
+Stay Tuned!
+
+I'll be updating this page regularly with new projects, ideas, and interactive elements. Be sure to check back often to see what's new!
+
+Thanks for stopping by, and I look forward to connecting with you!
 
 Want to get a taste of my coding skills? Try out this interactive cocktail recipe generator:
 
@@ -58,3 +64,4 @@ Want to get a taste of my coding skills? Try out this interactive cocktail recip
 
   </div>
 </html>
+
