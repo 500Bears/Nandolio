@@ -1,0 +1,25 @@
+name: SEO Audit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install SEO Audit Tool
+        run: npm install -g seo-audit
+
+      - name: Run SEO Audit
+        run: seo-audit --url https://yourwebsite.com  # Change this to your website's URL
