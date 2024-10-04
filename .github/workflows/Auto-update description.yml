@@ -1,0 +1,21 @@
+name: Auto-update description
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-description:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update description
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.patches.updateRepository({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              description: 'New description'
+            })
