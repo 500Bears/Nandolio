@@ -26,7 +26,7 @@ I'd love to hear from you! Whether you're a fellow coder, a bartender, or just s
 Interactive Fun
 
 Want to get a taste of my coding skills? Try out this interactive cocktail recipe generator:
-
+<html> 
 <div id="cocktail-recipe">
   <h2>Generate a Random Cocktail Recipe!</h2>
   <button id="generate-recipe">Shake It Up!</button>
@@ -50,6 +50,7 @@ Want to get a taste of my coding skills? Try out this interactive cocktail recip
     document.getElementById("generate-recipe").addEventListener("click", generateRecipe);
   </script>
 </div>
+</html>
 
 Click the "Shake It Up!" button to generate a random cocktail recipe!
 Stay Tuned!
